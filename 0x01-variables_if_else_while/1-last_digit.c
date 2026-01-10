@@ -19,7 +19,7 @@ int main(void)
 
 	if (n_mod_10 == 0)
 	{
-		printf("Last digit of %d is %d and is zero\n", n, n_mod_10);
+		printf("Last digit of %d is %d and is 0\n", n, n_mod_10);
 	}
 	else if (n_mod_10 > 5)
 	{
