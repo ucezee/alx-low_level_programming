@@ -12,7 +12,7 @@ int main(void)
 
 	while (alpha < 10)
 	{
-		put(alpha);
+		printf("%d", alpha);
 		if (alpha == 9)
 		{
 			putchar('\n');
