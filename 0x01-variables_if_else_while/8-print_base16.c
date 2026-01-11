@@ -10,14 +10,14 @@ int main(void)
 
 	alpha = '0';
 
-	while (alpha != ('e' + 1))
+	while (alpha != ('f' + 1))
 	{
 		putchar(alpha);
 		if (alpha == '9')
 		{
 			alpha = 'a' - 1;
 		}
-		if (alpha == 'e')
+		if (alpha == 'f')
 		{
 			putchar('\n');
 		}
