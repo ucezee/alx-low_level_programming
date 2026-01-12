@@ -13,7 +13,6 @@ int main(void)
 	int1 = 48;
 	int2 = 48;
 	int3 = 48;
-
 	while (int1 <= 57)
 	{
 		while (int2 <= 57)
@@ -38,14 +37,11 @@ int main(void)
 				int3++;
 			}
 			int3 = 48;
-
 			int2++;
 		}
 		int2 = 48;
-
 		int1++;
 	}
 	putchar ('\n');
-
 	return (0);
 }
