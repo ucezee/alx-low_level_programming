@@ -1,6 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * print_number - function to print mumbers
+ *
+ * a: number to be printed
+ *
+ */
 void print_number(int a)
 {
 	int c = abs(a);
@@ -20,6 +26,11 @@ void print_number(int a)
 	}
 }
 
+/**
+ * print_to_98 - function to print to 98
+ *
+ * c: start point
+ */
 void print_to_98(int c)
 {
 	int num;
