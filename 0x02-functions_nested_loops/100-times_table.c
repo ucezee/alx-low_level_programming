@@ -58,19 +58,16 @@ void print_times_table(int a)
 					{
 						_putchar(' ');
 						_putchar(' ');
-						_putchar(' ');
 					}
 					print_number(res);
 				}
 				else if (res < 100)
 				{
 					_putchar(' ');
-					_putchar(' ');
 					print_number(res);
 				}
 				else if (res < 1000)
 				{
-					_putchar(' ');
 					print_number(res);
 				}
 				else
