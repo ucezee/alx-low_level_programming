@@ -2,8 +2,7 @@
 #include <stdlib.h>
 /**
  * print_number - function to print mumbers
- *
- * a: number to be printed
+ * @a: number to be printed
  *
  */
 void print_number(int a)
@@ -28,6 +27,7 @@ void print_number(int a)
 
 /**
  * print_times_table - Entry
+ * @a: number to be printed
  *
  * Return: Null
  */
@@ -66,17 +66,12 @@ void print_times_table(int a)
 					_putchar(' ');
 					print_number(res);
 				}
-				else if (res < 1000)
-				{
-					print_number(res);
-				}
 				else
 				{
 					print_number(res);
 				}
 				s++;
 			}
-		
 			_putchar('\n');
 			f++;
 		}
